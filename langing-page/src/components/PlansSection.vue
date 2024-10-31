@@ -1,11 +1,13 @@
 <template>
-  <section id="plans" class="plans"> <!-- Agregamos id="plans" aquí -->
+  <section id="plans" class="plans">
     <h2>PLANS</h2>
     <div class="plans-cards">
       <!-- Tarjeta BASIC -->
       <div class="plan-card">
         <h3>BASIC</h3>
-        <p class="price">$29</p>
+        <div class="price-container">
+          <p class="price">$29</p>
+        </div>
         <ul>
           <li>Up to 20 clients</li>
           <li>Basic clinical history</li>
@@ -16,7 +18,9 @@
       <!-- Tarjeta SILVER -->
       <div class="plan-card">
         <h3>SILVER</h3>
-        <p class="price">$49</p>
+        <div class="price-container">
+          <p class="price">$49</p>
+        </div>
         <ul>
           <li>Up to 50 clients</li>
           <li>Advanced clinical history</li>
@@ -27,7 +31,9 @@
       <!-- Tarjeta GOLD -->
       <div class="plan-card">
         <h3>GOLD</h3>
-        <p class="price">$60</p>
+        <div class="price-container">
+          <p class="price">$60</p>
+        </div>
         <ul>
           <li>Unlimited clients</li>
           <li>Complete clinical history</li>
@@ -41,70 +47,93 @@
 <style scoped>
 .plans {
   width: 99vw;
-  height: 80vh;
+  min-height: 80vh;
   background-color: #fff;
   text-align: center;
   position: relative;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
   background-image: url('../assets/loros.png'); /* Imagen de los loros */
   background-repeat: no-repeat;
-  background-position: center bottom; /* Centra la imagen en la parte inferior */
-  background-size: contain; /* Ajusta el tamaño de la imagen al contenedor */
+  background-position: center bottom;
+  background-size: contain;
 }
 
 .plans h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
 }
 
 .plans-cards {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .plan-card {
   background-color: #26d0c3;
   color: #fff;
   padding: 1.5rem;
-  border-radius: 10px;
-  width: 250px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
   position: relative;
-  z-index: 1; /* Asegura que las tarjetas estén sobre el fondo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .plan-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
+.price-container {
+  background-color: #bde7df; /* Fondo más claro detrás del precio */
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 1rem;
+  width: 60%; /* Ancho del contenedor de precio */
+}
+
 .price {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin: 0.5rem 0;
+  color: #000; /* Color negro para el precio */
+  margin: 0;
 }
 
 .plan-card ul {
   list-style: none;
   padding: 0;
   margin: 1rem 0;
+  text-align: center;
+  color: #fff;
 }
 
 .plan-card li {
-  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  margin: 0.3rem 0;
 }
 
 .plan-card button {
   background-color: #bfc4ff;
   color: #4a3083;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.5rem;
   font-weight: bold;
-  border-radius: 5px;
+  font-size: 1rem;
+  border-radius: 8px;
   cursor: pointer;
+  margin-top: auto;
 }
 
 .plan-card button:hover {
   background-color: #fff;
+  color: #4a3083;
 }
 </style>
