@@ -38,6 +38,6 @@
 }
 
 .social-icons a:hover {
-  color: #26d0c3; /* Cambia el color al pasar el mouse */
+  color: #26d0c3;
 }
 </style>
