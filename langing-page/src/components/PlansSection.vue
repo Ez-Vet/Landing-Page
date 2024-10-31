@@ -36,7 +36,7 @@
     gap: 1rem;
   }
   .plan {
-    background-color: #26d0c3;
+    background-color: #00BFB2;
     color: #fff;
     padding: 1rem;
     border-radius: 0.5rem;

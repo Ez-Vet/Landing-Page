@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #4a3083;
+    background-color: #7068C0;
     color: #fff;
   }
   
@@ -43,8 +43,8 @@
   
   .login-button {
     background-color: #fff;
-    color: #4a3083;
-    border: 1px solid #4a3083;
+    color: #7068C0;
+    border: 1px solid #7068C0;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;

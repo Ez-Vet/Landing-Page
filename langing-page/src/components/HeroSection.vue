@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #26d0c3;
+    background-color: #00BFB2;
     padding: 3rem 1rem;
     color: #fff;
     text-align: left;
@@ -55,7 +55,7 @@
   .cta-button {
     background-color: #fff;
     color: #26d0c3;
-    border: 1px solid #26d0c3;
+    border: 1px solid #00BFB2;
     padding: 0.75rem 1.5rem;
     font-weight: bold;
     border-radius: 5px;
@@ -63,7 +63,7 @@
   }
   
   .cta-button:hover {
-    background-color: #4a3083;
+    background-color: #7068C0;
     color: #fff;
   }
   </style>

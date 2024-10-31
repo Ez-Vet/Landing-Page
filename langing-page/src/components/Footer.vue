@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4a3083;
+    background-color: #7068C0;
     color: #fff;
     padding: 1rem;
   }
