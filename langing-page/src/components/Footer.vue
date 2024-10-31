@@ -3,13 +3,13 @@
     <p>©2024 ez.vet. Todos los derechos reservados.</p>
     <div class="social-icons">
       <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-instagram"></i>
+        <img src="../assets/instagram.png" alt="Instagram" class="social-icon" />
       </a>
       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-twitter"></i>
+        <img src="../assets/twitter.png" alt="Twitter" class="social-icon" />
       </a>
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-facebook"></i>
+        <img src="../assets/facebook.png" alt="Facebook" class="social-icon" />
       </a>
     </div>
   </footer>
@@ -21,7 +21,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #4a3083;
+  background-color: #7068C0;
   color: #fff;
   font-size: 1rem;
 }
@@ -31,13 +31,13 @@
   gap: 1rem;
 }
 
-.social-icons a {
-  color: #fff;
-  font-size: 1.5rem;
-  transition: color 0.3s;
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
 }
 
-.social-icons a:hover {
-  color: #26d0c3;
+.social-icon:hover {
+  transform: scale(1.1); /* Efecto de agrandado al pasar el mouse */
 }
 </style>

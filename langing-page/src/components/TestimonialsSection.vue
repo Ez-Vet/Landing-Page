@@ -1,5 +1,5 @@
 <template>
-  <section class="testimonials">
+  <section id="testimonials" class="testimonials"> <!-- Aquí se agregó el id -->
     <h2>TESTIMONIALS</h2>
     
     <div class="testimonial-card">

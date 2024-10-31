@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section id="about" class="hero"> <!-- Agregamos id="about" aquí -->
     <div class="hero-content">
       <!-- Imagen de la mascota -->
       <img src="../assets/dog-cat.png" alt="Dog and Cat" class="hero-image" />
