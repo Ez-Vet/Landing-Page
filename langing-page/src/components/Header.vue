@@ -1,6 +1,9 @@
 <template>
   <header class="header">
-    <div class="logo">ez.Vet</div>
+    <div class="logo">
+      <!-- Imagen de logo -->
+      <img src="../assets/ez-vet.png" alt="ez.Vet Logo" class="logo-image" />
+    </div>
     
     <div class="center-content">
       <button class="login-button">INICIAR SESIÓN</button>
@@ -22,14 +25,17 @@
   background-color: #7068C0;
   color: #fff;
   width: 99vw;
+  min-height: 13vh;
   box-sizing: border-box;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;
   margin-right: auto;
+}
+
+.logo-image {
+  width: 170px; /* Ajusta el tamaño de la imagen del logo */
+  height: auto;
 }
 
 .center-content {
@@ -52,7 +58,7 @@
 }
 
 .nav-link:hover {
-  color: #26d0c3;
+  color: #00BFB2;
 }
 
 .login-button {

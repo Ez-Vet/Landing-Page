@@ -18,7 +18,7 @@
 .hero {
   width: 99vw;
   height: 99vh;
-  background-color: #26d0c3;
+  background-color: #00BFB2;
   display: flex;
   justify-content: center;
   align-items: center;

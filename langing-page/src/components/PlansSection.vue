@@ -73,7 +73,7 @@
 }
 
 .plan-card {
-  background-color: #26d0c3;
+  background-color: #00BFB2;
   color: #fff;
   padding: 1.5rem;
   border-radius: 15px;

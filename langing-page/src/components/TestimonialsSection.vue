@@ -30,9 +30,9 @@
 
 <style scoped>
 .testimonials {
-  width: 100vw;
+  width: 99vw;
   padding: 3rem 0;
-  background-color: #26d0c3;
+  background-color: #00BFB2;
   color: #000000;
   text-align: center;
 }
