@@ -1,5 +1,4 @@
 <script>
-
 export default {
   name: "changelang.component",
   data() {
@@ -10,6 +9,9 @@ export default {
   methods: {
     toggleLanguage() {
       this.$i18n.locale = this.isEnglish ? 'en' : 'es';
+    },
+    navigateToLogin() {
+      window.location.href = "https://ezvet.netlify.app"; // Redirige al enlace deseado
     }
   }
 }
@@ -23,7 +25,8 @@ export default {
     </div>
     
     <div class="center-content">
-      <button class="login-button">INICIAR SESIÓN</button>
+      <!-- Botón de inicio de sesión con evento de redirección -->
+      <button class="login-button" @click="navigateToLogin">INICIAR SESIÓN</button>
       <nav class="nav">
         <a href="#about" class="nav-link">{{ $t('Header.about') }}</a>
         <a href="#plans" class="nav-link">{{ $t('Header.plans') }}</a>
@@ -52,7 +55,7 @@ export default {
 }
 
 .logo-image {
-  width: 170px; /* Ajusta el tamaño de la imagen del logo */
+  width: 170px;
   height: auto;
 }
 
