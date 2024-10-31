@@ -6,9 +6,9 @@
 
       <!-- Texto descriptivo -->
       <div class="hero-text">
-        <h1>PLATFORM THAT SIMPLIFIES VETERINARY MANAGEMENT</h1>
-        <p>Optimize your processes, save time and provide better care to your patients.</p>
-        <button class="cta-button">INICIAR SESIÓN</button>
+        <h1>{{ $t('Hero.plataform') }}</h1>
+        <p>{{ $t('Hero.optimize') }}</p>
+        <button class="cta-button">{{ $t('Hero.sesion') }}</button>
       </div>
     </div>
   </section>

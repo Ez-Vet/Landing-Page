@@ -9,10 +9,10 @@
           <p class="price">$29</p>
         </div>
         <ul>
-          <li>Up to 20 clients</li>
-          <li>Basic clinical history</li>
+          <li>{{ $t('Plans.a') }}</li>
+          <li>{{ $t('Plans.ab') }}</li>
         </ul>
-        <button>Accept</button>
+        <button>{{ $t('Plans.accept') }}</button>
       </div>
 
       <!-- Tarjeta SILVER -->
@@ -22,10 +22,10 @@
           <p class="price">$49</p>
         </div>
         <ul>
-          <li>Up to 50 clients</li>
-          <li>Advanced clinical history</li>
+          <li>{{ $t('Plans.b') }}</li>
+          <li>{{ $t('Plans.bc') }}</li>
         </ul>
-        <button>Accept</button>
+        <button>{{ $t('Plans.accept') }}</button>
       </div>
 
       <!-- Tarjeta GOLD -->
@@ -35,10 +35,10 @@
           <p class="price">$60</p>
         </div>
         <ul>
-          <li>Unlimited clients</li>
-          <li>Complete clinical history</li>
+          <li>{{ $t('Plans.c') }}</li>
+          <li>{{ $t('Plans.cd') }}</li>
         </ul>
-        <button>Accept</button>
+        <button>{{ $t('Plans.accept') }}</button>
       </div>
     </div>
   </section>

@@ -1,3 +1,20 @@
+<script>
+
+export default {
+  name: "changelang.component",
+  data() {
+    return {
+      isEnglish: this.$i18n.locale === 'en'
+    };
+  },
+  methods: {
+    toggleLanguage() {
+      this.$i18n.locale = this.isEnglish ? 'en' : 'es';
+    }
+  }
+}
+</script>
+
 <template>
   <header class="header">
     <div class="logo">
@@ -8,11 +25,12 @@
     <div class="center-content">
       <button class="login-button">INICIAR SESIÓN</button>
       <nav class="nav">
-        <a href="#about" class="nav-link">ABOUT US</a>
-        <a href="#plans" class="nav-link">PLANS</a>
-        <a href="#testimonials" class="nav-link">TESTIMONIALS</a>
+        <a href="#about" class="nav-link">{{ $t('Header.about') }}</a>
+        <a href="#plans" class="nav-link">{{ $t('Header.plans') }}</a>
+        <a href="#testimonials" class="nav-link">{{ $t('Header.testi') }}</a>
       </nav>
     </div>
+    <pv-togglebutton v-model="isEnglish" onLabel="EN" offLabel="ES" @change="toggleLanguage" class="px-10" />
   </header>
 </template>
 

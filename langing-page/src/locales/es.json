@@ -1,0 +1,26 @@
+{
+ "Header": {
+   "about": "NOSOTROS",
+   "plans": "PLANES",
+   "testi": "TESTIMONIOS"
+ },
+  "Hero": {
+    "plataform": "PLATAFORMA QUE SIMPLIFICA LA GESTIÓN VETERINARIA",
+    "optimize": "Optimiza tus procesos, ahorra tiempo y brinda un mejor cuidado a tus pacientes.",
+    "sesion": "INICIAR SESIÓN"
+  },
+  "Plans": {
+    "basic": "BÁSICO",
+    "silver": "PLATA",
+    "gold": "ORO",
+    "a": "Hasta 20 clientes",
+    "ab": "Historia clínica básica",
+    "accept": "Aceptar",
+    "b": "Hasta 50 clientes",
+    "bc": "Historia clínica avanzada",
+    "c": "Clientes ilimitados",
+    "cd": "Historia clínica completa"
+  }
+
+
+}
