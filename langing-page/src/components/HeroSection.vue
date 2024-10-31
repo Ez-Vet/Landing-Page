@@ -2,7 +2,7 @@
     <section class="hero">
       <div class="hero-content">
         <!-- Imagen de la mascota -->
-        <img src="../assets/" alt="Dog and Cat" class="hero-image" />
+        <img src="../assets/dog-cat.png" alt="Dog and Cat" class="hero-image" />
   
         <!-- Texto descriptivo -->
         <div class="hero-text">
