@@ -3,7 +3,7 @@
     <h2>TESTIMONIALS</h2>
     <div class="testimonial-card">
       <!-- Testimonio de Maria Lopez -->
-      <img src="../assets/" alt="Maria Lopez" class="testimonial-image" />
+      <img src="../assets/doctor-1.png" alt="Maria Lopez" class="testimonial-image" />
       <div class="testimonial-content">
         <h4>Maria Lopez</h4>
         <p>Ez.vet has transformed our clinic. It allows us to save hours each day by managing our appointments and reminders automatically.</p>
@@ -15,7 +15,7 @@
 
     <div class="testimonial-card">
       <!-- Testimonio de Martin Jimenez -->
-      <img src="@/assets/doctor2.png" alt="Martin Jimenez" class="testimonial-image" />
+      <img src="../assets/doctor-2.png" alt="Martin Jimenez" class="testimonial-image" />
       <div class="testimonial-content">
         <h4>Martin Jimenez</h4>
         <p>Thanks to Ez.vet, we can offer our customers a faster and more professional service. We couldn't be happier!</p>
