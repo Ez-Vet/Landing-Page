@@ -1,25 +1,43 @@
 <template>
-    <footer class="footer">
-      <p>©2024 ez.vet. Todos los derechos reservados.</p>
-      <div class="social-icons">
-        <i class="fab fa-twitter"></i>
+  <footer class="footer">
+    <p>©2024 ez.vet. Todos los derechos reservados.</p>
+    <div class="social-icons">
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-instagram"></i>
-      </div>
-    </footer>
-  </template>
-  
-  <style scoped>
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #7068C0;
-    color: #fff;
-    padding: 1rem;
-  }
-  .social-icons i {
-    margin-left: 1rem;
-    cursor: pointer;
-  }
-  </style>
-  
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </div>
+  </footer>
+</template>
+
+<style scoped>
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #4a3083;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #26d0c3; /* Cambia el color al pasar el mouse */
+}
+</style>
