@@ -40,8 +40,9 @@
 
 <style scoped>
 .plans {
-  padding: 3rem 2rem;
-  background-color: #e6f7f8;
+  width: 99vw;
+  height: 80vh;
+  background-color: #fff;
   text-align: center;
   position: relative;
   background-image: url('../assets/loros.png'); /* Imagen de los loros */

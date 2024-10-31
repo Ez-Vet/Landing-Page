@@ -31,47 +31,53 @@
 .hero-content {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Distribuye el espacio entre imagen y texto */
-  max-width: 1400px;             /* Ajusta el ancho máximo de la sección */
+  justify-content: space-between;
+  max-width: 1400px;
   width: 100%;
   padding: 0 3rem;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .hero-image {
-  width: 50%;                    /* Ocupa el 50% del espacio */
-  max-width: 600px;              /* Limita el tamaño máximo en pantallas grandes */
+  width: 50%;
+  max-width: 600px;
   height: auto;
 }
 
 .hero-text {
-  flex: 1;                       /* El texto ocupa el espacio restante */
+  flex: 1;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .hero-text h1 {
-  font-size: 2.8rem;
-  line-height: 1.2;
+  font-size: 3rem;
+  line-height: 1.1;
   margin-bottom: 1rem;
   color: #fff;
+  max-width: 500px;
 }
 
 .hero-text p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   color: #e6f7f8;
-  max-width: 500px;              /* Limita el ancho del párrafo */
+  max-width: 400px;
 }
 
 .cta-button {
-  background-color: #fff;
-  color: #26d0c3;
-  border: none;
-  padding: 0.75rem 1.5rem;
+  background-color: #B9B9D2;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 0.5rem 1.5rem;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
+  align-self: flex-start;
+  margin-top: 0.5rem;
 }
 
 .cta-button:hover {
