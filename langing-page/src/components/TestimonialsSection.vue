@@ -1,6 +1,6 @@
 <template>
   <section id="testimonials" class="testimonials">
-    <h2>TESTIMONIALS</h2>
+    <h2>{{ $t('Testimonials.Testimonials') }}</h2>
 
     <!-- Testimonio de Maria Lopez (alineado a la izquierda) -->
     <div class="testimonial-card left">
@@ -9,16 +9,16 @@
         <div class="rating">⭐⭐⭐⭐⭐</div>
       </div>
       <div class="testimonial-content">
-        <h4>Maria Lopez</h4>
-        <p>Ez.vet has transformed our clinic. It allows us to save hours each day by managing our appointments and reminders automatically.</p>
+        <h4>{{ $t('Testimonials.Maria') }}</h4>
+        <p>{{ $t('Testimonials.a') }}</p>
       </div>
     </div>
 
     <!-- Testimonio de Martin Jimenez (alineado a la derecha) -->
     <div class="testimonial-card right">
       <div class="testimonial-content">
-        <h4>Martin Jimenez</h4>
-        <p>Thanks to Ez.vet, we can offer our customers a faster and more professional service. We couldn't be happier!</p>
+        <h4>{{ $t('Testimonials.Martin') }}</h4>
+        <p>{{ $t('Testimonials.b') }}</p>
       </div>
       <div class="testimonial-image-container">
         <img src="../assets/doctor-2.png" alt="Martin Jimenez" class="testimonial-image" />

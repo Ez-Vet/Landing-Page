@@ -20,7 +20,15 @@
     "bc": "Historia clínica avanzada",
     "c": "Clientes ilimitados",
     "cd": "Historia clínica completa"
+  },
+  "Testimonials": {
+    "Testimonials": "TESTIMONIOS",
+    "Maria": "Maria Lopez",
+    "a": "Ez.vet ha transformado nuestra clínica. Nos permite ahorrar horas cada día gestionando nuestras citas y recordatorios automáticamente.",
+    "Martin": "Martin Jimenez",
+    "b": "Gracias a Ez.vet, podemos ofrecer a nuestros clientes un servicio más rápido y profesional. ¡No podríamos estar más felices!"
   }
+
 
 
 }

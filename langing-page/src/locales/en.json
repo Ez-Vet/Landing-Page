@@ -22,6 +22,10 @@
     "cd": "Complete clinical history"
   },
   "Testimonials": {
-
-  }
+    "Testimonials": "TESTIMONIALS",
+    "Maria": "Maria Lopez",
+    "a": "Ez.vet has transformed our clinic. It allows us to save hours each day by managing our appointments and reminders automatically.",
+    "Martin": "Martin Jimenez",
+    "b": "Thanks to Ez.vet, we can offer our customers a faster and more professional service. We couldn't be happier!"
+    }
 }
