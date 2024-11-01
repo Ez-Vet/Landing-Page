@@ -31,6 +31,8 @@ export default {
         <a href="#about" class="nav-link">{{ $t('Header.about') }}</a>
         <a href="#plans" class="nav-link">{{ $t('Header.plans') }}</a>
         <a href="#testimonials" class="nav-link">{{ $t('Header.testi') }}</a>
+        <a href="#AboutProject" class="nav-link">{{ $t('Header.AboutProject') }}</a>
+        <a href="#AboutTeam" class="nav-link">{{ $t('Header.AboutTeam') }}</a>
       </nav>
     </div>
     <pv-togglebutton v-model="isEnglish" onLabel="EN" offLabel="ES" @change="toggleLanguage" class="px-10" />
